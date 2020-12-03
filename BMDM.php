@@ -16,12 +16,12 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace dautkom\bmdm;
+namespace dautkom1\bmdm;
 require_once "library/Core.php";
 
-use dautkom\bmdm\library\Core;
-use dautkom\bmdm\library\BeiderMorse;
-use dautkom\bmdm\library\DaitchMokotoff;
+use dautkom1\bmdm\library\Core;
+use dautkom1\bmdm\library\BeiderMorse;
+use dautkom1\bmdm\library\DaitchMokotoff;
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\BrowserConsoleHandler;
 use Monolog\Handler\NullHandler;

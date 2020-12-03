@@ -16,7 +16,7 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace dautkom\bmdm\library;
+namespace dautkom1\bmdm\library;
 
 use Monolog\Logger;
 
