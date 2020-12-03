@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "dautkom\\bmdm\\": ""
+      "dautkom1\\bmdm\\": ""
     }
   },
   "authors": [
