@@ -16,13 +16,13 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace dautkom1\bmdm\library;
+namespace andrie4ko\bmdm\library;
 
 use Monolog\Logger;
 
 
 /**
- * @package dautkom\bmdm
+ * @package andrie4ko\bmdm
  */
 class Core
 {

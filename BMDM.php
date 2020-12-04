@@ -16,12 +16,12 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace dautkom1\bmdm;
+namespace andrie4ko\bmdm;
 require_once "library/Core.php";
 
-use dautkom1\bmdm\library\Core;
-use dautkom1\bmdm\library\BeiderMorse;
-use dautkom1\bmdm\library\DaitchMokotoff;
+use andrie4ko\bmdm\library\Core;
+use andrie4ko\bmdm\library\BeiderMorse;
+use andrie4ko\bmdm\library\DaitchMokotoff;
 use Monolog\Formatter\LineFormatter;
 use Monolog\Handler\BrowserConsoleHandler;
 use Monolog\Handler\NullHandler;
@@ -29,7 +29,7 @@ use Monolog\Logger;
 
 
 /**
- * @package dautkom\bmdm
+ * @package andrie4ko\bmdm
  */
 class BMDM extends Core
 {

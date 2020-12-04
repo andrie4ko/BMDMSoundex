@@ -1,5 +1,5 @@
 {
-  "name": "dautkom1/bmdm",
+  "name": "andrie4ko/bmdm",
   "description": "Beider-Morse plus Daitch-Mokotoff soundex",
   "type": "project",
   "keywords": [
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "dautkom1\\bmdm\\": ""
+      "andrie4ko\\bmdm\\": ""
     }
   },
   "authors": [

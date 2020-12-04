@@ -10,7 +10,7 @@ class GenericTest extends \PHPUnit_Framework_TestCase
 {
 
     /**
-     * @var \dautkom\bmdm\BMDM()
+     * @var \andrie4ko\bmdm\BMDM()
      */
     private $bmdm;
 
@@ -26,7 +26,7 @@ class GenericTest extends \PHPUnit_Framework_TestCase
     public function __construct()
     {
         parent::__construct();
-        $this->bmdm    = new \dautkom\bmdm\BMDM();
+        $this->bmdm    = new \andrie4ko\bmdm\BMDM();
         $this->langDir = __DIR__.'/../library/bm/languages/gen/';
     }
 

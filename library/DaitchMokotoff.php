@@ -17,11 +17,11 @@
  * If not, see <http://www.gnu.org/licenses/>.
  *
  */
-namespace dautkom1\bmdm\library;
+namespace andrie4ko\bmdm\library;
 
 
 /**
- * @package dautkom\bmdm\library
+ * @package andrie4ko\bmdm\library
  */
 class DaitchMokotoff extends Core
 {
