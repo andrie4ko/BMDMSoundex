@@ -1151,6 +1151,11 @@ class BeiderMorse extends Core
         // Find if rule contains %language% and capturing language names between [%...%] one group per each [..] occurence
         if( array_key_exists(3, $rule) &&  preg_match_all('/\[(%[\w%\+]+\%)]/', $rule[3], $match)) {
 
+        	// sort by length descending
+			usort($match[1], function($a, $b) {
+				return mb_strlen($b) - mb_strlen($a);
+			});
+			
             // Loop through [%...%] matches
             foreach ($match[1] as $langs) {
 
