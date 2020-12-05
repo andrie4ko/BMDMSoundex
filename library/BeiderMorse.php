@@ -464,7 +464,7 @@ class BeiderMorse extends Core
         }
 
         // Debug section
-        {
+        if(self::$debug) {
 
             // Phonetic alphabet mapping info
             $dbg = 'Char codes =';
